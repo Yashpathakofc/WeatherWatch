@@ -1,0 +1,45 @@
+.sidebar {
+    height: 100%;
+    width: 360px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #094556;
+    overflow-x: hidden;
+    padding-top: 60px;
+  }
+  
+  .sidebar h2 {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  
+  .sidebar .updates {
+    padding: 15px;
+    
+
+  }
+  
+  .sidebar .updates div {
+    color: white;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    transition: 0.3s;
+    
+    
+  }
+  
+  .sidebar .updates div:hover {
+    color: #f1f1f1;
+  }
+  
+  .content {
+    margin-left: 250px; /* Add a margin to the left to accommodate the sidebar */
+    padding: 20px;
+  }
+  
